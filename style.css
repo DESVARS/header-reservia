@@ -1,0 +1,82 @@
+@font-face
+{font-family:raleway, sans-serif;
+src: url(raleway\raleway); 
+}
+
+
+.main
+{
+    display:flex;
+    align-items: center;
+   justify-content: space-between;
+    margin: 0 2vw;
+    border: 2px pink solid;
+    
+   
+}
+.logo img
+{
+   
+      
+    border: 2px green solid;
+   
+}
+.navbar
+{
+   
+    display: flex;
+    align-items: center; 
+    border: 2px chocolate solid;  
+}
+
+ a
+{  
+    text-decoration: none;
+    font-size: large;
+    color: #0065FC;   
+    
+}
+ li a:visited
+{
+    color:black;
+    
+}
+li a:link
+{
+    color: #0065FC;
+    border-top: 3px solid transparent; 
+    cursor: pointer;
+}
+li a:focus 
+{    
+    color:#0065FC;
+    border-top: 3px solid #0065FC; 
+    padding-top: 1vw;
+    
+    
+  }
+
+li a:hover
+{
+      
+    color: #0065FC;  
+} 
+li a:active
+{
+    color: #0065FC;
+      
+}
+
+.ancre ul
+{
+    display: flex;
+    list-style-type: none;  
+    border: 2px blue solid;   
+}
+
+.ancre li
+{
+  margin: 0 2vw 0 1vw;
+  border: 2px solid springgreen;
+ 
+}
