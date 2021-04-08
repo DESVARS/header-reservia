@@ -1,0 +1,234 @@
+@media screen and (max-width:425px)
+    {
+     
+     
+         body
+         {
+             margin: 0;
+         }
+       
+     
+        header
+      {
+          margin: 0 3vw;
+      }
+     .main 
+     {
+         
+         height: 15vw;
+        display: flex;     
+       
+    }
+    .ancre
+    {
+        width: 100%;
+        display: flex;
+        
+    }
+    .ancre ul
+    {
+        display: flex;
+        flex-direction: row;
+       
+        max-width:100%
+      
+    }
+    .ancre a:hover
+    {
+        border-top: none;
+        border-bottom: 2px solid #0065FC;
+    }
+    .ancremobile
+    {
+        display: flex;   
+      
+    }
+    .ancre1
+    {
+      width: 50%;
+     text-align: center;
+       
+    }
+    .logo
+    {
+        position: absolute;
+    }
+    .logo img
+    {
+        width: 25vw;
+        height: 10vw;
+    }
+    
+   
+   /* 2E PARTIE DU HEADER */
+     .rechercher
+    {
+    
+        background-color:#F2F2F2;
+       height: 100%;
+       width: 90%;
+        margin: 4vw 2vw;
+        
+    }
+    .rechercher i
+    {
+        font-size: 6vw; 
+        padding-right: 0;
+        padding-left: 5vw;
+    }
+    #search1
+    {
+        width: 10vw;
+        height: 10vw;
+        font-size: 10%;
+        background-color:#0065FC;
+        color:white;
+        border-radius: 20%;
+        margin-left: 0%;
+        margin-right: 0%;
+        border-style: hidden;
+        visibility: visible;
+        
+
+    }
+    #search1 i 
+     {
+        font-size: 4vw;
+        padding-left: 0;
+        padding-right: 1vw;
+        
+    }
+    #search
+    {
+       display: none;
+    }
+    .ville
+    {
+      width: 100%;
+     height: 10vw; 
+    
+    }
+    
+    ::placeholder
+    {
+        font-size: 5vw;
+        font-style: normal;
+        padding-left: 4vw;
+    }
+    .titres1 h1 
+    {
+        font-size: 7vw;
+        
+     
+    }
+    .titres1 h2
+    {
+        font-size: 5vw;
+        margin-top: 10%;
+    }
+    .containerfiltres
+    {
+        margin-top: 4vw; 
+        width: 100%;
+        align-content: space-between;
+       justify-items:flex-start;
+        display:grid; 
+        grid-template-rows: 25% 25% 25% 25%;
+        grid-template-columns: 50% 50%; 
+    }
+    .containerfiltres h3 
+    {
+        font-size: 5vw;
+      
+    }
+    .filtres h3
+    {
+        margin: 4vw 0 0 2vw;
+    }
+    .icon
+    {
+    
+        align-items: center;
+        border-radius:20px;
+        background-color:#DEEBFF;
+        width: 10vw;
+        height: 10vw;
+       
+       
+    }
+    .icon i 
+    {
+        font-size: 6vw;
+        align-items: center;
+        margin:2vw 2vw 0 2vw;
+       
+    }
+   .economique
+   {
+       grid-row: 2;
+       grid-column: 1;
+       width: 90%;
+       height: 50%;
+      
+   }
+   
+   .familial
+   {
+       grid-row: 2;
+       grid-column: 2;
+       width: 65%;
+       height: 50%;
+      
+       margin-right: 0%;
+       margin-left: 3%;
+   }
+   .romantique
+   {
+       grid-row: 3;
+       grid-column: 1;
+       width: 90%;
+       height: 50%;
+   }
+   .animaux
+   {
+       grid-row: 4;
+       grid-column: 1;
+       width: 130%;
+       height: 50%;
+   } 
+   .info
+   {
+       margin: 2vw 2vw 6vw 2vw;
+       align-items: baseline;
+   } 
+   .info p
+   {
+    font-size: 4vw;
+    width: 72vw;
+   }
+   .container
+   {
+       flex-direction: column-reverse;
+       margin: 13vw 2vw;
+   }
+   .hebmars1 
+   {
+       flex-direction: column;
+   }
+   .populaires
+   {
+       width: 100%;
+       height: 50%;
+    
+   }
+   .pop h3
+   {
+       font-size: 6vw;
+       margin: 0 2vw 0  2vw;
+   }
+   .pop i 
+   {
+       font-size: 6vw;
+   }
+
+   }
