@@ -15,24 +15,20 @@
      .main 
      {
          
-         height: 15vw;
+     flex-basis: 100%;
         display: flex;     
        
     }
     .ancre
     {
-        width: 100%;
+       width: 100%;
         display: flex;
+        order: 2;
+       
+        
         
     }
-    .ancre ul
-    {
-        display: flex;
-        flex-direction: row;
-       
-        max-width:100%
-      
-    }
+   
     .ancre a:hover
     {
         border-top: none;
@@ -40,25 +36,35 @@
     }
     .ancremobile
     {
-        display: flex;   
+        display: flex;  
+        flex-basis: 100%;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        
       
     }
     .ancre1
     {
-      width: 50%;
-     text-align: center;
+     
+        display: flex;
+        flex-basis: 50%;
        
     }
     .logo
     {
         position: absolute;
+        margin-bottom: 10%;
+        margin-top: 0%;
     }
     .logo img
     {
-        width: 25vw;
-        height: 10vw;
+        width: 20vw;
+        height: 8vw;
     }
-    
+    .inscrire 
+    {
+        order:1;
+    }
    
    /* 2E PARTIE DU HEADER */
      .rechercher
